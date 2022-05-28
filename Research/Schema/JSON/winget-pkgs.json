@@ -41,13 +41,7 @@
           "InstallerType": {
             "type": "string",
             "description": "enumeration of supported installer types (exe, msi, msix, inno, nullsoft)",
-            "enum": [
-              "exe",
-              "msi",
-              "msix",
-              "inno",
-              "nullsoft"
-            ]
+            "enum": ["exe", "msi", "msix", "inno", "nullsoft"]
           }
         }
       }

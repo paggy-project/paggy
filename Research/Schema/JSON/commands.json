@@ -6,9 +6,7 @@
     "commands": {
       "type": "object",
       "description": "The friendly name of the command.",
-      "required": [
-        "fileName"
-      ],
+      "required": ["fileName"],
       "properties": {
         "fileName": {
           "type": "string",

@@ -17,14 +17,7 @@
     },
     "license": {
       "description": "Open source license under which the project is licensed",
-      "enum": [
-        "GPL",
-        "LGPL",
-        "BSD",
-        "Public",
-        "MIT",
-        "Apache"
-      ]
+      "enum": ["GPL", "LGPL", "BSD", "Public", "MIT", "Apache"]
     },
     "version": {
       "$ref": "#/definitions/semver"
@@ -70,13 +63,7 @@
     }
   },
   "additionalProperties": false,
-  "required": [
-    "name",
-    "license",
-    "releasenote",
-    "contributors",
-    "version"
-  ],
+  "required": ["name", "license", "releasenote", "contributors", "version"],
   "definitions": {
     "userName": {
       "description": "The name of a user",
@@ -92,10 +79,7 @@
       "not": {
         "anyOf": [
           {
-            "enum": [
-              "haxe",
-              "all"
-            ]
+            "enum": ["haxe", "all"]
           },
           {
             "pattern": "\\.(zip|hxml)$"
