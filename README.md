@@ -1,7 +1,9 @@
 # Paggy-Project
+
 Full Project Documentation
 
 ## Content
+
 (comming soon, look at [Drafts](Drafts/README.md))
 
     - [Versions](Versions.md)

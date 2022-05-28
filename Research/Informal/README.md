@@ -1,5 +1,5 @@
 ---
-  title: Things Of Inspiration
+title: Things Of Inspiration
 ---
 
 # Informal - Things Of Inspiration

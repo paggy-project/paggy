@@ -3,7 +3,7 @@
 | Command   | Alias             | Description                                                                                                                                                                            |
 | --------- | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | add       | pkg-act, -a       | Adds a package to library                                                                                                                                                              |
-| remove    | pkg-deact, rm, -r | Removes a package from library, but not erases it                                                                                                                                     |
+| remove    | pkg-deact, rm, -r | Removes a package from library, but not erases it                                                                                                                                      |
 | delete    | erase, -d         | Deletes a package from library, if none dependant exists; if a dependant exists, it will be detached and deleted                                                                       |
 | attach    | dep-act           | Attachs a package as dependency to another package, if attached package is compatible                                                                                                  |
 | detach    | dep-deact         | Detaches a package as dependency from another package, if detached package is not the only compatible package or if a compatible package is known from a repository; online or offline |
